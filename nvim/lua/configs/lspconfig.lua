@@ -16,6 +16,8 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- lspconfig.dart.setup {}
+
 -- configuring single server, example: typescript
 -- lspconfig.tsserver.setup {
 --   on_attach = nvlsp.on_attach,
